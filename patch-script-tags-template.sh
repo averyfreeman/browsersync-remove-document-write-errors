@@ -7,7 +7,7 @@
 # Reference browser-sync github issue: 
 # https://github.com/BrowserSync/browser-sync/issues/1600
 ################################################################
-set -v
+# set -v
 
 echo 'copy the patch to the browser-sync/templates directory'
 cp script-tags.patch ../node_modules/browser-sync/templates/.
