@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
+# ./patch-script-tags-template.sh
+# by Avery Freeman
+# https://github.com/averyfreeman
+#
+################################################################
+# Reference browser-sync github issue: 
+# https://github.com/BrowserSync/browser-sync/issues/1600
+################################################################
 set -v
 
 echo 'copy the patch to the browser-sync/templates directory'
